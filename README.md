@@ -1,3 +1,5 @@
+[![View A Matlab implementation of the extended Matthews correlation coefficient on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://au.mathworks.com/matlabcentral/fileexchange/180711-a-matlab-implementation-of-matthews-correlation-coefficient#add-tags-span)
+
 # extended-mcc
 
 A Matlab implementation of the extended (multiclass) Matthews correlation coefficient (EMCC).
@@ -44,6 +46,7 @@ ylabel('Count');
 ```
 
 The example above generates `nrepl` confusion matricies for four imbalanced classes and plots distributions of extended MCC and accuracy (shown below). Values of extended MCC are distributed around 0, consistent with random class predictions. Accuracy tends to provide an optimistic measure of performance.
+
 ![mcc vs accuracy](./images/example.png "MCC vs Accuracy")
 
 For a discussion of Matthews correlation coefficient in binary classification, see:
